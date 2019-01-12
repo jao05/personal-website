@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Jesse Outlaw</title>
+		<title>Jesse Outlaw</title>		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="index.css" rel="stylesheet" type="text/css" />    	
+    	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    	<script src="index.js"></script>
 	</head>
-	<link href="index.css" rel="stylesheet" type="text/css" />
+	
 	<body>
-		<nav>Nav</nav>
-		<main role='main'>
+		<nav>
 			<header role='banner'>
-				<h1>HERO</h1>
+				<h1>JESSE OUTLAW</h1>
 			</header>
+		</nav>
+		<main role='main'>			
 			<section id='headline'>
-				<h3>HEADLINE</h3>
+				<p>
+					Hello, Jesse here.  I’m a full stack engineer, certified public accountant, entrepreneur, 		investor & artificial intelligence enthusiast.	
+				</p>
 			</section>
+			
 			<section id='bio'>
-				<h3>BIO</h3>
+				<p>
+					After years of working as a Certified Public Accountant, I decided to make the transition into software engineering 
+					when I learned of all of the unstoppable changes being ushered in by the technology sector.  
+					In addition to completing Thinkful’s Full Stack Engineering Bootcamp, I’m currently pursuing 
+					a Master’s in Computer Science with a concentration in Artificial Intelligence.
+
+					Outside of tech, I like investing, coaching football and teaching others about building wealth.
+				</p>				
 			</section>
+			
 			<section id='projects'>
 				<h3>PROJECTS</h3>
+				<div id='projectsContainer'>
+					<div class="projectDiv">
+						<a href=""><img src="" class="projectImg"></a>
+						<a href="">Live</a>
+						<a href="">GitHub</a>
+						<p class="projectDescription">StockScreener allows a user to enter a stock ticker to receive financial info about and company and a select group of its peers.</p>
+						<p class="techUsed">Tech used: HTML, CSS, Javascript, JQuery</p>
+					</div>
+					<div class="projectDiv">
+						<a href=""><img src="" class="projectImg"></a>
+						<a href="">Live</a>
+						<a href="">GitHub</a>
+						<p class="projectDescription">Negotiator allows a user to find an expert to help them make major purchases.</p>
+						<p class="techUsed">Tech used: HTML, CSS, Javascript, JQuery, Nodejs, MongoDB</p>
+					</div>
+					<div class="projectDiv">
+						<a href=""><img src="" class="projectImg"></a>
+						<a href="">Live</a>
+						<a href="">GitHub</a>
+						<p class="projectDescription">Merger allows small companies to find other small companies with which to merge in order to become larger, stronger organizations.</p>
+						<p class="techUsed">Tech used: Reactjs, Nodejs, MongoDB</p>
+					</div>					
+				</div>				
 			</section>
-			<footer role='content-info'>FOOTER</footer>
+			
+			<footer role='content-info'>© Jesse Outlaw 2019</footer>
 		</main>
 	</body>
 </html>
