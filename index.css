@@ -11,6 +11,10 @@ body {
   line-height: 1.5; 
 }
 
+main {
+  width: 100%;
+}
+
 nav, footer {  
   background-color: #aaa;
 }
@@ -26,19 +30,41 @@ nav {
 
 #headline {
   margin-top: 25%;
+  vertical-align: middle;
 }
 
 #headline, #projects {
 	background-color: #E8E7E5;
 }
 
+#bio {
+  width: 50%; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2%; 
+}
+
+#bio p {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  width: 100%;
+}
+
 p {
   font-family: 'Poppins';
+}
+
+#projects {
+  margin-top: 5%;
 }
 
 #projectsContainer {
   text-align: center;  
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
 }
 
 .projectDiv {
@@ -57,12 +83,65 @@ p {
   margin-left: auto;
 }
 
+.linktoProject {
+  margin-right: 2%;
+}
+
+.projectDescription {
+  text-align: left;
+}
+
+.techUsed {
+    text-align: left;
+  }
+
 
 
 @media only screen and (min-width: 320px) {
 
+  #headline {
+  padding: 5%;
+}
+
+#bio p {  
+  text-align: center;  
+}
+
   .projectDiv {
   
     width: 80%;  
+  } 
+
+  .projectImg {
+    width: 100%;
+    padding: 30%;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .techUsed {
+    margin-bottom: 15%;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  
+  #headline {
+    margin-top: 1%;
+  }
+
+
+  .projectDiv {
+  
+    width: 40%;  
+  }
+
+  .projectImg {
+    width: 100%;
+    padding: 30%;  
+    display: block;  
   } 
 }
