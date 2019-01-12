@@ -103,8 +103,13 @@ p {
   padding: 5%;
 }
 
+#imgOfJesse {
+  width: 100%;
+}
+
 #bio p {  
   text-align: center;  
+  width: 100%;
 }
 
   .projectDiv {
