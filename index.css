@@ -32,6 +32,10 @@ nav {
 	background-color: #E8E7E5;
 }
 
+p {
+  font-family: 'Poppins';
+}
+
 #projectsContainer {
   text-align: center;  
   width: 100%;
