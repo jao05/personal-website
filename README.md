@@ -4,6 +4,6 @@
 
 https://jao05.github.io/personal-website/
 
-##Tech Used:
+## Tech Used:
 
 HTML5, CSS3
