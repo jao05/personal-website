@@ -73,6 +73,12 @@ p {
   margin-top: 3%;
 }
 
+#showProjectsButton:hover, #hideProjectsButton:hover {
+  background-color: #5A66FF;
+  color: white;
+  cursor: pointer;
+}
+
 #projects {
   margin-top: 10%;   
 }
