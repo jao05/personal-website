@@ -1,8 +1,8 @@
 # My Developer Website
 
-## Link to live site:
+## Live Site:
 
-https://jao05.github.io/personal-website/
+See live site [here](https://jao05.github.io/personal-website/).
 
 ## Tech Used:
 
