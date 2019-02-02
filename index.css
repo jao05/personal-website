@@ -152,8 +152,7 @@ p {
   } 
 
   .projectImg {
-    width: 100%;
-    /*padding: 30%;*/
+    width: 100%;    
     border: 1px solid black;
     margin-right: auto;
     margin-left: auto;
