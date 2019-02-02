@@ -38,6 +38,10 @@ nav {
 	background-color: white;
 }
 
+#headlineDescription {
+  text-align: left;
+}
+
 #imgOfJesse {  
   width: 225px;
   padding: 15%;
@@ -138,7 +142,7 @@ p {
 }
 
 #bio p {  
-  text-align: center;  
+  text-align: left;  
   width: 100%;
 }
 
