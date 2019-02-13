@@ -48,7 +48,7 @@ a:hover {
 }
 
 #headlineDescription {
-  text-align: left;
+  text-align: center;
 }
 
 h3 {
@@ -107,7 +107,7 @@ p {
 }
 
 #projects {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;   
 }
 
@@ -217,14 +217,16 @@ p {
 }
 
 
-  .projectDiv {
-  
+  .projectDiv {  
     width: 40%;  
   }
 
   .projectImg {
-    width: 100%;
-    /*padding: 30%;  */
+    width: 100%;    
     display: block;  
-  } 
+  }
+
+  #headlineContactInfo {
+    margin-bottom: 0%;
+  }
 }
